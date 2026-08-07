@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <!-- Added tabindex="0" so the calculator accepts keyboard events -->
+    <div class="calculator" tabindex="0">
+        <div class="screen">
+            <div class="operation">
+                <p id="txt-box" contenteditable="true"></p>
+                <p class="result">0</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="function-btns">
+                <button class="button" id="c">C</button>
+                <button class="button" id="()">()</button>
+                <button class="button" id="%">%</button>
+                <button class="button" id="divide">÷</button>
+            </div>
+            <div class="top-btns">
+                <button class="button" id="7">7</button>
+                <button class="button" id="8">8</button>
+                <button class="button" id="9">9</button>
+                <button class="button" id="multiply">X</button>
+            </div>
+            <div class="middle-btns">
+                <button class="button" id="4">4</button>
+                <button class="button" id="5">5</button>
+                <button class="button" id="6">6</button>
+                <button class="button" id="subtract">-</button>
+            </div>
+            <div class="bottom-btns">
+                <button class="button" id="1">1</button>
+                <button class="button" id="2">2</button>
+                <button class="button" id="3">3</button>
+                <button class="button" id="add">+</button>
+            </div>
+            <div class="other-btns">
+                <button class="button" id="0">0</button>
+                <button class="button" id="decimal">•</button>
+                <button class="button" id="=">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
